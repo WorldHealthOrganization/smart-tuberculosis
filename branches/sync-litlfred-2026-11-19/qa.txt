@@ -1,0 +1,91 @@
+SMART : Validation Results
+=========================================
+
+err = 44, warn = 24, info = 1, broken links = 6
+IG Publisher Version: 3.0.4
+Generated Thu Nov 19 08:47:33 UTC 2026. FHIR version 4.3.0 for who.fhir.smart-ig-empty#0.1.0 (canonical = http://worldhealthorganization.github.io/smart)
+ Build Errors : 14 / 20 / 0
+ /work/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty : 36 / 4 / 2
+</table>
+
+== n/a ==
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: This IG is version 4.3.0, while the IG 'hl7.terminology.r4' is from version 4.0.1
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: This IG is version 4.3.0, while the IG 'hl7.fhir.uv.extensions.r4' is from version 4.0.1
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: This IG is version 4.3.0, while the IG 'smart.who.int.base' is from version 4.0.1
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: This IG is for FHIR version 4.3.0, while the package 'hl7.fhir.uv.cql#2.0.0' is for FHIR version 4.0.1
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: This IG is for FHIR version 4.3.0, while the package 'hl7.fhir.uv.cpg#2.0.0' is for FHIR version 4.0.1
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: This IG is for FHIR version 4.3.0, while the package 'hl7.fhir.uv.crmi#2.0.0' is for FHIR version 4.0.1
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: This IG is for FHIR version 4.3.0, while the package 'hl7.fhir.uv.sdc#4.0.0' is for FHIR version 4.0.1
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: This IG is version 4.3.0, while the IG 'hl7.fhir.uv.tools.r4' is from version 4.0.1
+WARNING: /work/output/business-processes.html: Illegal HTML: illegal html element: nark (insert content here</mark>.)
+WARNING: /work/output/dak-api.html: The html source is not well formed: Found "</div>" expecting "</hr>" at line 346 column 7
+WARNING: /work/output/dak-api.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 351 column 7
+WARNING: /work/output/dak-api.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 352 column 7
+WARNING: /work/output/dak-api.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 353 column 7
+WARNING: /work/output/dak-api.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 354 column 7
+WARNING: /work/output/dak-api.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 355 column 7
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 295, column 8: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 296, column 8: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 298, column 9: The link 'definitions.ttl.zip' for "TTL" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 312, column 8: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 313, column 8: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 314, column 8: The link 'examples.ttl.zip' for "TTL" cannot be resolved
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+WARNING: /work/output/testing.html: Illegal HTML: illegal html element: static_server_port ( e.g. http://localhost:8087)
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+
+== fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json ==
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide)
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: A definition could not be found for Canonical URL 'SMARTImplementationGuide'
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[0]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[1]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[2]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[3]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[4]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[0]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[1]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[2]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[3]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[4]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[5]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[6]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[7]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[8]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[0]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[1]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[2]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[3]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[4]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[0]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[1]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[2]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[3]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[4]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[4]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[4].page[0]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[4].page[1]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[5]: The definition of the extension 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' specifies that the latest version it can be used with is R4 (v4.0), but this context of use is version R4B (v4.3.0)
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.dependsOn[0]: The ImplementationGuide is based on FHIR version 4.3.0 but package hl7.terminology.r4#7.5.0 is based on FHIR version 4.0.1. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.dependsOn[1]: The canonical URL http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions points to the package hl7.fhir.uv.extensions which is inconsistent with the stated packageId of hl7.fhir.uv.extensions.r4
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.dependsOn[2]: The ImplementationGuide is based on FHIR version 4.3.0 but package smart.who.int.base#current is based on FHIR version 4.0.1. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+INFORMATION: Resource: The resource ImplementationGuide/who.fhir.smart-ig-empty could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
